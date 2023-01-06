@@ -8,17 +8,17 @@
 
 # Academic Management System 
 
-The present repository provide sample codes. It contains mainly three files as given below:
+This repository represents the existing academic management system. It contains the following files as given below:
 
 * index.html.
 * main.js
-* module-1.json     *(for undergradutae degree and modules)*
-* module-2.json     *(for postgraduate degree and moudles)*
-* module-3.json     *(for research degree such PhD and MS by research)*
+* module-1.json     *(for undergradutae degrees and modules)*
+* module-2.json     *(for postgraduate degrees and modules)*
+* module-3.json     *(for research degrees such PhD and MS by research)*
 
 
 
-You can use this repository to extended the programming code of `main.js`, extend the data given in JSON files, and update `index.html` plus any additional components to complete the application development. Your first step is to fork this repository.
+You can use this repository to extended the programming code of `main.js`, extend the data given in JSON files, and update `index.html` plus any additional components to extend the existing functionality. Your first step is to fork this repository.
 
 
 
