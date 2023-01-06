@@ -1,7 +1,14 @@
-# Academic Management System 
+<img  align="right" src="https://www.edgehill.ac.uk/wp-content/ehu-themes/ehu-wordpress-theme/resources/images/ehu_logo.svg" alt="Edge Hill Univeristy Logo" title="EHU Logo" style="width:20%" />
+
+<p align="right"> <b>Web Design and Development</b> | CIS2169 Web Application Development</p>
+
+---
+
 **About**: This repository is to be used as part of the CIS2169 Assessment 2 (2022-2033).
 
 
+
+# Academic Management System 
 
 The present repository provide sample codes. It contains mainly three files as given below:
 
@@ -17,7 +24,7 @@ You can use this repository to extended the programming code of `main.js`, exten
 
 
 
-Remember...
+***Remember...***
 
 * Prepare deployment plan.
 
