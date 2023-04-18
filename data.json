@@ -1,0 +1,56 @@
+{
+  "under-graduate": [
+    {
+      "id": 1,
+      "module_id": "10",
+      "module_title": "title1",
+      "module_hours": "3",
+      "module_outcomes": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "module_credits": "6"
+    },
+    {
+      "id": 2,
+      "module_id": "11",
+      "module_title": "title2",
+      "module_hours": "3",
+      "module_outcomes": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "module_credits": "3"
+    }
+  ],
+  "post-graduate": [
+    {
+      "id": 1,
+      "module_id": "20",
+      "module_title": "pg1",
+      "module_hours": "2",
+      "module_outcomes": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "module_credits": "3"
+    }
+  ],
+  "research-graduate": [
+    {
+      "id": 1,
+      "module_id": "31",
+      "module_title": "rg1",
+      "module_hours": "5",
+      "module_outcomes": [
+        "l1",
+        "l2",
+        "l3"
+      ],
+      "module_credits": "3"
+    }
+  ]
+}
