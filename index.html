@@ -1,49 +1,21 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
-    <title>Coursework2_WebApp</title>
-    <link rel="stylesheet" href="css/styles.css">
-  </head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <title>Login Page</title>
+</head>
 <body>
-
-  <header>
-    <h1>Web Application Development Course Work-2 </h1>
-    <button id ="fetch_button">Fetch information about the modules</button>
-    <ul id="module_list"></ul>
-  </header>
-
-  <div id="module_info">
-    <form class="Module_creator">
-
-      <label for="programme_select">Programme:</label>
-      <select id="programme_select" name="programme_select">
-        <option value="under-graduate">Under-graduate programme</option>
-        <option value="post-graduate">Post-graduate programme</option>
-        <option value="research-graduate">Research-graduate programme</option>
-      </select><br>
-
-      <label for="module_id">Module ID:</label>
-      <input type="text" id="module_id" name="module_id"><br>
-
-      <label for="module_title">Module Title:</label>
-      <input type="text" id="module_title" name="module_title"><br>
-    
-      <label for="module_hours">Number of Hours:</label>
-      <input type="number" id="module_hours" name="module_hours"><br>
-    
-      <label for="module_outcomes">Learning Outcomes:</label>
-      <input type="text" id="module_objective1" name="module_objectives[]"><br>
-      <input type="text" id="module_objective2" name="module_objectives[]"><br>
-      <input type="text" id="module_objective3" name="module_objectives[]"><br>
-    
-      <label for="module_credits">Number of Credits:</label>
-      <input type="number" id="module_credits" name="module_credits"><br>
-    
-      <button type="submit" id="create_module" >Add Module</button>
-    </form>
-  </div>
-
-
-  <script src="main.js"></script>
+    <nav>
+    <li><a href="module_creator.html">Module Creator</a></li>
+    <li><a href="degree_programme.html">Degree Programme</a></li>
+    <li><a href="assessment_creator.html">Assessment Creator</a></li>
+  </nav>
+  <section class="system_info">
+    <h1>Academic Management System</h1>
+    <p>This application is a way to track teaching related activities for the University.</p>
+  </section>
 </body>
 </html>

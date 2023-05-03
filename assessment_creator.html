@@ -1,0 +1,51 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+<body>
+
+  <nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="module_creator.html">Module Creator</a></li>
+    <li><a href="degree_programme.html">Degree Programme</a></li>
+  </nav>
+
+  <div id="assessment_info">
+    <form class="assessment_creator">
+      <h1>Create assessment</h1>
+
+      <label for="assessment_id">Asessment ID:</label>
+      <input type="text" id="assessment_id" name="assessment_id"><br>
+
+      <label for="assessment_title">Asessment Title:</label>
+      <input type="text" id="assessment_title" name="assessment_title"><br>
+
+      <label for="volume">Assessment volume:</label>
+      <input type="text" id="assessment_volume" name="assessment_volume"><br>
+    
+      <label for="assessment_outcomes">Learning Outcomes:</label>
+      <ul id="assessment_objectives">
+        <li><input type="text" name="assessment_objectives[]"></li>
+        <li><input type="text" name="assessment_objectives[]"></li>
+        <li><input type="text" name="assessment_objectives[]"></li>
+      </ul>
+    
+      <label for="academic">Weighting:</label>
+      <input type="text" id="weighting" name="weighting"><br>
+    
+      <label for="module_list">Assigned Modules:</label>
+      <input id="add_module" type="text"><br><br>
+
+      <button type="submit" id="create_assessment" >Create Assessment</button>
+    </form>
+  </div>
+
+  <section class="display_area">
+    <button id="fetch_button">Fetch Assessments</button><br>
+    <ul id="assessment_list"></ul>
+  </section>
+  <script src="assessment_creator.js"></script>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+
+  <nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="module_creator.html">Module Creator</a></li>
+    <li><a href="assessment_creator.html">Assessment Creator</a></li>
+  </nav>
+
+  <div id="module_info">
+    <form class="degree_creator">
+
+
+      <label for="degree_id">Degree ID:</label>
+      <input type="text" id="degree_id" name="degree_id"><br>
+
+      <label for="degree_title">Degree Title:</label>
+      <input type="text" id="degree_title" name="degree_title"><br>
+
+        <label for="module_list">Modules:</label>
+        <ul id="modules">
+            <li><input type="text" name="module_list[]"></li>
+        </ul>
+        <button id="add_module" type="button">Add module</button><br><br>
+    
+      <label for="exitAwards">Exit Awards:</label>
+      <input type="text" id="exit_awards" name="exit_awards"><br>
+    
+      <label for="degree_outcomes">Learning Outcomes:</label>
+      <ul id="degree_objectives">
+        <li><input type="text" name="degree_objectives[]"></li>
+        <li><input type="text" name="degree_objectives[]"></li>
+        <li><input type="text" name="degree_objectives[]"></li>
+      </ul>
+    
+      <label for="academic">Lead Academic:</label>
+      <input type="text" id="academic" name="academic"><br>
+    
+      <button type="submit" id="create_degree" >Create Degree Programme</button>
+    </form>
+  </div>
+
+  <section class="display_area">
+    <button id="fetch_button">Display Degree</button><br>
+    <ul id="degree_list"></ul>
+  </section>
+
+  <script src="degree_creator.js"></script>
+</body>
+</html>

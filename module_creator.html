@@ -1,0 +1,49 @@
+<html>
+<head>
+  <meta name ="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Coursework2_WebApp</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+<body>
+
+
+  <nav>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="degree_programme.html">Degree Programme</a></li>
+    <li><a href="assessment_creator.html">Assessment Creator</a></li>
+  </nav>
+
+  <div id="module_info">
+    <form class="Module_creator">
+
+      <label for="module_id">Module ID:</label>
+      <input type="text" id="module_id" name="module_id"><br>
+
+      <label for="module_title">Module Title:</label>
+      <input type="text" id="module_title" name="module_title"><br>
+
+      <label for="module_title">Degree Programme:</label>
+      <input type="text" id="degree_programme" name="degree_programme"><br>
+    
+      <label for="module_hours">Number of Hours:</label>
+      <input type="number" id="module_hours" name="module_hours"><br>
+    
+      <label for="module_outcomes">Learning Outcomes:</label>
+      <input type="text" id="module_objective1" name="module_objectives[]"><br>
+      <input type="text" id="module_objective2" name="module_objectives[]"><br>
+      <input type="text" id="module_objective3" name="module_objectives[]"><br>
+    
+      <label for="module_credits">Number of Credits:</label>
+      <input type="number" id="module_credits" name="module_credits"><br>
+    
+      <button type="submit" id="create_module" >Add Module</button>
+    </form>
+  </div>
+  <section class="display_area">
+    <button id="fetch_button">Fetch Assessments</button><br>
+    <ul id="module_list"></ul>
+  </section>
+
+  <script src="module_creator.js"></script>
+</body>
+</html>

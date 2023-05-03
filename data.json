@@ -1,56 +1,62 @@
 {
-  "under-graduate": [
+  "Degree-programmes": [
     {
       "id": 1,
-      "module_id": "10",
-      "module_title": "title1",
+      "degree_id": "1000",
+      "degree_title": "Web Design & Development",
+      "Module_list": [
+        "2167"
+      ],
+      "exit_awards": "Exit Award",
+      "degree_outcomes": [
+        "Learn Industry Skills",
+        "Increase coding ability",
+        "Demonstrate ability to learn"
+      ],
+      "academic": "Dave Walsh"
+    }
+  ],
+  "Modules": [
+    {
+      "id": 1,
+      "module_id": "2167",
+      "module_title": "Server & Client Side Scripting",
+      "degree_programme": "Undergrad",
       "module_hours": "3",
       "module_outcomes": [
-        "l1",
-        "l2",
-        "l3"
+        "Increase experience with Laravel",
+        "Increase PHP Knowledge",
+        "Boost knowledge on MySQL"
       ],
-      "module_credits": "6"
+      "module_credits": "20"
     },
     {
       "id": 2,
-      "module_id": "11",
-      "module_title": "title2",
+      "module_id": "2169",
+      "module_title": "Web Application Development",
+      "degree_programme": "Undergrad",
       "module_hours": "3",
       "module_outcomes": [
-        "l1",
-        "l2",
-        "l3"
+        "Boost knowledge and json-servers",
+        "Familiarise with UML",
+        "Deploy an application"
       ],
-      "module_credits": "3"
+      "module_credits": "20"
     }
   ],
-  "post-graduate": [
+  "Assessments": [
     {
       "id": 1,
-      "module_id": "20",
-      "module_title": "pg1",
-      "module_hours": "2",
-      "module_outcomes": [
-        "l1",
-        "l2",
-        "l3"
+      "assessment_id": "1",
+      "assessment_title": "Laravel app",
+      "assessment_volume": "80%",
+      "assessment_outcomes": [
+        "learn Laravel",
+        "Learn php",
+        "Learn database"
       ],
-      "module_credits": "3"
-    }
-  ],
-  "research-graduate": [
-    {
-      "id": 1,
-      "module_id": "31",
-      "module_title": "rg1",
-      "module_hours": "5",
-      "module_outcomes": [
-        "l1",
-        "l2",
-        "l3"
-      ],
-      "module_credits": "3"
+      "weighting": "80%",
+      "Module_List": "2167"
     }
   ]
 }
