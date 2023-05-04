@@ -21,14 +21,16 @@ nav a {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 #module_info {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  margin-top: 5%;
+  margin-bottom: 3%;
 }
 
 /* Style the form elements */
